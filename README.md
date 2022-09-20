@@ -81,7 +81,7 @@
 - `rm -f` = force, 권한을 강제로 주어 삭제
 - `rm -rf` = .git 폴더 삭제, 저장소 해제, 저장소가 많으면 컴퓨터 부하발생
 
-### gitignore(gitignore.io)
+### gitignore([gitignore.io](https://www.toptal.com/developers/gitignore))
 
 - 코드파일 외 불필요한 파일, 패키지 등을 올리지 않도록 예외처리를 하는 코드 생성
 - 운영체제, 편집기에서 나오는 옵션 파일들을 제외하고 git에 올릴 수 있도록 만들어줌
