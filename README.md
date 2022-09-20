@@ -61,5 +61,13 @@
 ## 2022-09-20 Tue
 
 - 버전 되돌리기
-  - git bash에서 `git checkout {commitnumber}`로 commitnumber 버전으로 변경 가능
+
+  - git bash에서 `git checkout commitnumber`로 commitnumber 버전으로 변경 가능
   - 인터넷(Html)로 실행되는 것이라면 `강력 새로고침` 실행 후 진행
+
+- 로컬(bash)에서 repository 지정 및 취소
+
+  - `git init` = 현재 작업 폴더를 repository로 지정, .git 폴더가 생성됨
+  - `rm -r` = recrusive, 예하의 폴더를 지움
+  - `rm -f` = force 권한을 강제로 주어 삭제
+  - `rm -rf` = .git 삭제, 저장소 해제, 저장소가 많으면 컴퓨터 부하발생
