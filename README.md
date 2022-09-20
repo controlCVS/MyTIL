@@ -65,9 +65,20 @@
   - git bash에서 `git checkout commitnumber`로 commitnumber 버전으로 변경 가능
   - 인터넷(Html)로 실행되는 것이라면 `강력 새로고침` 실행 후 진행
 
-- 로컬(bash)에서 repository 지정 및 취소
+- 로컬(GitBash)에서 repository 지정 및 취소
 
   - `git init` = 현재 작업 폴더를 repository로 지정, .git 폴더가 생성됨
   - `rm -r` = recrusive, 예하의 폴더를 지움
-  - `rm -f` = force 권한을 강제로 주어 삭제
-  - `rm -rf` = .git 삭제, 저장소 해제, 저장소가 많으면 컴퓨터 부하발생
+  - `rm -f` = force, 권한을 강제로 주어 삭제
+  - `rm -rf` = .git 폴더 삭제, 저장소 해제, 저장소가 많으면 컴퓨터 부하발생
+
+- gitignore(gitignore.io)
+
+  - 코드파일 외 불필요한 파일, 패키지 등을 올리지 않도록 예외처리를 하는 코드 생성
+  - 운영체제, 편집기에서 나오는 옵션 파일들을 제외하고 git에 올릴 수 있도록 만들어줌
+
+- branch 만들기
+  - 이슈 하나당 브랜치 하나를 주로 만듬
+  - `git branch` = 현재 브랜치 확인
+  - `git branch 브랜치 이름` = 브랜치 이름에 해당되는 브랜치 생성
+  - `git checkout(switch) 브랜치 이름` = 브랜치 이름에 해당되는 브랜치로 이동
