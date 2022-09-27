@@ -112,4 +112,4 @@
 7. 'Merge pull request'로 깃허브 메인브런치 병합 승인 요청
 8. 최종권자가 승인('Confirm merge')
 9. 깃허브 메인브런치에 병합 완료
-10. 로컬 저장소에서 변경된 메인을 다시 받음(`git pull origin main`)
+10. 로컬 저장소에서 main으로 변경 후(`git checkout main`), 변경된 메인을 다시 받음(`git pull origin main`)
