@@ -95,3 +95,8 @@
 - `git branch 브랜치 이름` = 브랜치 이름에 해당되는 브랜치 생성
 - `git checkout(switch) 브랜치 이름` = 브랜치 이름에 해당되는 브랜치로 이동
 - `git checkout -b 브랜치 이름` = 브랜치 이름에 해당하는 브랜치 생성 후 그 브랜치로 이동
+
+### branch 병합
+
+- `git merge 브랜치 이름` = 브랜치를 병합함
+- 'github'에서 'pull request'를 한 후 `git pull origin main` 명령어로 로컬에 저장할 수 있음
