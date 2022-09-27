@@ -100,3 +100,5 @@
 
 - `git merge 브랜치 이름` = 브랜치를 병합함
 - 'github'에서 'pull request'를 한 후 `git pull origin main` 명령어로 로컬에 저장할 수 있음
+
+연습용 아무말대잔치
