@@ -101,4 +101,15 @@
 - `git merge 브랜치 이름` = 브랜치를 병합함
 - 'github'에서 'pull request'를 한 후 `git pull origin main` 명령어로 로컬에 저장할 수 있음
 
-연습용 아무말대잔치
+### branch 병합 순서
+
+1. 로컬 저장소에서 새로운 브런치를 생성하고 이동함(`git branch -b ~`)
+2. 이동한 브랜치에서 원하는 파일 수정 후 저장
+3. 저장한 파일을 스테이징하고(`git add ~`), 커밋 생성(`git commit -m "~"`)
+4. 3번에서 만든 것을 깃허브에 업로드(`git push 브랜치이름 파일이름`)
+5. 깃허브에서 'Compare & pull request' 버튼 클릭
+6. 'Create pull request' 클릭 후 메모 작성
+7. 'Merge pull request'로 깃허브 메인브런치 병합 승인 요청
+8. 최종권자가 승인('Confirm merge')
+9. 깃허브 메인브런치에 병합 완료
+10. 로컬 저장소에서 변경된 메인을 다시 받음(`git pull origin main`)
