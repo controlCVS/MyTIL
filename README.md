@@ -114,3 +114,9 @@
 9. 최종권자가 승인('Confirm merge')
 10. 원격 저장소 메인브런치에 병합 완료
 11. 로컬 저장소에서 main으로 변경 후(`git checkout main`), 변경된 메인을 다시 받음(`git pull origin main`)
+
+### 'git'의 인증 방법
+
+- ID/PW 방식
+- KEY 방식(개인키/공용키) 개인키는 유출 및 노출 절대 금지
+- 토큰 방식(Personal Access Tokens)
